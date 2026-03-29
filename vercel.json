@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "public": true,
+  "buildCommand": "bash build.sh",
+  "outputDirectory": "build/web",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
